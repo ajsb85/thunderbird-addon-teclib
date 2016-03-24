@@ -4,8 +4,7 @@
 Add teclib' IMAP options to the account wizard of Thunderbird/Icedove/Postbox/Gucharo
 
 ### Download
-https://addons.mozilla.org/addon/teclib-imap/ <br>
-https://addons.instantbird.org/addon/xxx/
+https://addons.mozilla.org/addon/teclib-imap/
 
 ### L10N Support:
 * English
@@ -19,6 +18,8 @@ https://addons.instantbird.org/addon/xxx/
 Filing a bug at https://github.com/ajsb85/thunderbird-addon-teclib/issues
 
 ### Preview Screenshots
+![teclib-screenshot](https://raw.github.com/ajsb85/thunderbird-addon-teclib/master/press/screens/amo/screen1.png "teclib")<br>
+![teclib-screenshot](https://raw.github.com/ajsb85/thunderbird-addon-teclib/master/press/screens/amo/screen2.png "teclib")<br>
 
 ### Works with:
 
