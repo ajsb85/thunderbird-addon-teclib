@@ -1,0 +1,13 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY teclibimapisp.trashFolder "[teclib']/Trash">
+<!ENTITY teclibimapisp.prettyName "teclib'">
+<!ENTITY teclibimapisp.accountType "teclib' IMAP">
+<!ENTITY teclibimapisp.accountTypeApps "teclib' IMAP">
+<!ENTITY teclibimapisp.useSpamDesc "Thunderbird&apos;s junk mail control is not normally needed because teclib' also has a smart junk mail filter. If you do not have a reason enough for using it, please keep the following option unchecked.">
+<!ENTITY teclibimapisp.useSpam "Enable junk mail control">
+<!ENTITY teclibimapisp.domain "teclib.com">
+<!ENTITY teclibimapisp.imapServer "imap.teclib.com">
+<!ENTITY teclibimapisp.smtpServer "smtp.teclib.com">
+<!ENTITY teclibimapisp.teclibLang "teclib' display language:">

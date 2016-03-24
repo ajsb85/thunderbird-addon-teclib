@@ -31,3 +31,12 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Mozilla
+*.zip
+*.xpi
+*.jar
+*.ja
+
+# Mac OS
+*.DS_Store

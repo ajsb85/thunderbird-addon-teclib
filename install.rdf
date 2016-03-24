@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{ac49e375-67c2-4971-a413-97a22ff518f0}</em:id>
+    <em:version>0.1.0</em:version>
+    <em:type>2</em:type>
+    <em:unpack>true</em:unpack>
+    <em:multiprocessCompatible>true</em:multiprocessCompatible>
+    <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>2.0b2</em:minVersion>
+        <em:maxVersion>49</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <em:name>teclib' IMAP Account Setup</em:name>
+    <em:description>
+      Add teclib' IMAP options to the account wizard of Thunderbird.
+    </em:description>
+    <em:localized>
+			<Description>
+				<em:locale>en-US</em:locale>
+				<em:name>teclib' IMAP Account Setup</em:name>
+				<em:description>
+          Add teclib' IMAP options to the account wizard of Thunderbird.
+        </em:description>
+			</Description>
+		</em:localized>
+    <em:creator>Alexander J. Salas B.</em:creator>
+    <em:homepageURL>http://www.teclib.com/</em:homepageURL>
+    <em:translator>@ajsb85 (ar)</em:translator>
+    <em:translator>@ajsb85 (bg-BG)</em:translator>
+    <em:translator>@ajsb85 (ca-AD)</em:translator>
+    <em:translator>@ajsb85 (cs-CZ)</em:translator>
+    <em:translator>@ajsb85 (da-DK)</em:translator>
+    <em:translator>@ajsb85 (de-DE)</em:translator>
+    <em:translator>@ajsb85 (en-GB)</em:translator>
+    <em:translator>@ajsb85 (en-US)</em:translator>
+    <em:translator>@ajsb85 (es-ES)</em:translator>
+    <em:translator>@ajsb85 (fr-FR)</em:translator>
+    <em:translator>@ajsb85 (hu-HU)</em:translator>
+    <em:translator>@ajsb85 (id-ID)</em:translator>
+    <em:translator>@ajsb85 (it-IT)</em:translator>
+    <em:translator>@ajsb85 (ja-JP)</em:translator>
+    <em:translator>@ajsb85 (ko-KR)</em:translator>
+    <em:translator>@ajsb85 (nl-NL)</em:translator>
+    <em:translator>@ajsb85 (pl-PL)</em:translator>
+    <em:translator>@ajsb85 (pt-BR)</em:translator>
+    <em:translator>@ajsb85 (pt-PT)</em:translator>
+    <em:translator>@ajsb85 (ru-RU)</em:translator>
+    <em:translator>@ajsb85 (sk-SK)</em:translator>
+    <em:translator>@ajsb85 (sv-SE)</em:translator>
+    <em:translator>@ajsb85 (tr-TR)</em:translator>
+    <em:translator>@ajsb85 (uk-UA)</em:translator>
+  </Description>
+</RDF>

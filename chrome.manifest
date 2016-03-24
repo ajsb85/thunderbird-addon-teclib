@@ -1,0 +1,32 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+content teclibimapisp chrome/content/
+overlay	chrome://messenger/content/AccountWizard.xul	chrome://content/teclibimapisp.xul
+overlay	chrome://messenger/content/messenger.xul	chrome://content/teclibimapisp-messenger.xul
+locale teclibimapisp ar chrome/locale/ar/
+locale teclibimapisp bg-BG chrome/locale/bg-BG/
+locale teclibimapisp ca-AD chrome/locale/ca-AD/
+locale teclibimapisp cs-CZ chrome/locale/cs-CZ/
+locale teclibimapisp da-DK chrome/locale/da-DK/
+locale teclibimapisp de-DE chrome/locale/de-DE/
+locale teclibimapisp en-GB chrome/locale/en-GB/
+locale teclibimapisp en-US chrome/locale/en-US/
+locale teclibimapisp es-ES chrome/locale/es-ES/
+locale teclibimapisp fr-FR chrome/locale/fr-FR/
+locale teclibimapisp hu-HU chrome/locale/hu-HU/
+locale teclibimapisp id-ID chrome/locale/id-ID/
+locale teclibimapisp it-IT chrome/locale/it-IT/
+locale teclibimapisp ja-JP chrome/locale/ja-JP/
+locale teclibimapisp ko-KR chrome/locale/ko-KR/
+locale teclibimapisp nl-NL chrome/locale/nl-NL/
+locale teclibimapisp pl-PL chrome/locale/pl-PL/
+locale teclibimapisp pt-BR chrome/locale/pt-BR/
+locale teclibimapisp pt-PT chrome/locale/pt-PT/
+locale teclibimapisp ru-RU chrome/locale/ru-RU/
+locale teclibimapisp sk-SK chrome/locale/sk-SK/
+locale teclibimapisp sv-SE chrome/locale/sv-SE/
+locale teclibimapisp tr-TR chrome/locale/tr-TR/
+locale teclibimapisp uk-UA chrome/locale/uk-UA/
+skin	teclibimapisp	classic/1.0	chrome/skin/classic/
+style chrome://messenger/content/messenger.xul chrome://skin/teclibimapisp.css

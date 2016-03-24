@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<overlay id="teclibimapisp-messenger_overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="chrome://global/content/nsUserSettings.js"/>
+  <script type="application/x-javascript" src="chrome://teclibimapisp/content/teclibimapisp-messenger.js"/>
+  <stringbundleset id="stringbundleset">
+		<stringbundle id="teclibImapISPBundle" src="chrome://teclibimapisp/locale/teclibimapisp.properties"/>
+  </stringbundleset>
+  <!--
+  <menupopup id="taskPopup">
+		<menu label="Set up teclib' IMAP">
+			<menupopup>
+				<menuitem label="New" oncommand="MsgAccountWizard();"/>
+				<menuitem label="All"/>
+				<menuitem label="Selected"/>
+			</menupopup>
+		</menu>
+  </menupopup>
+  -->
+</overlay>

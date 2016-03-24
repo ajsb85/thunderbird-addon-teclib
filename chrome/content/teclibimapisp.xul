@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!DOCTYPE RDF SYSTEM "chrome://teclibimapisp/locale/teclibimapisp.dtd">
+
+<overlay id="teclibimapisp_overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://teclibimapisp/content/teclibimapisp.js"/>
+  <wizard id="AccountWizard">
+		<stringbundle id="teclibImapISPBundle" src="chrome://teclibimapisp/locale/teclibimapisp.properties"/>
+  </wizard>
+	<radiogroup id="acctyperadio" oncommand="teclibImapIspAW.enableteclibLocale(this.value)"/>
+	<wizardpage id="accounttype">
+		<hbox align="center">
+			<label value="&teclibimapisp.teclibLang;" id="teclibLocaleListLabel" hidden="true"/>
+			<menulist id="teclibLocaleList" hidden="true" value="default"
+								oncommand="teclibImapIspAW.applyLocaleChange()">
+				<menupopup id="teclibLocaleListPopup">
+				</menupopup>
+			</menulist>
+		</hbox>
+	</wizardpage>
+	<hbox id="downloadMsgsBox">
+		<vbox flex="1" id="useSpamOptBox" hidden="true">
+			<description id="useSpamOptDesc">&teclibimapisp.useSpamDesc;</description>
+			<checkbox id="setteclibImapSpam" label="&teclibimapisp.useSpam;" checked="false"/>
+		</vbox>
+	</hbox>
+</overlay>
